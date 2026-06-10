@@ -1,0 +1,10 @@
+# Never commit personal evidence — see DISCLAIMER.md §5
+evidence/
+my-evidence/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.eml
+*.msg
+.DS_Store
