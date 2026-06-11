@@ -6,7 +6,8 @@ AI assistants: fetch the single-file bundle below — it contains the entire rep
 
 ## Everything in one file
 
-- [ai-bundle.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/ai-bundle.md): the complete repository concatenated in reading order (recommended)
+- [ai-bundle.md](https://vishaltorc.github.io/dispute-desk/ai-bundle.md): the complete repository concatenated in reading order (recommended)
+- Mirror: https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/ai-bundle.md (identical content)
 
 ## Core files (raw, individually fetchable)
 

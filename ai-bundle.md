@@ -35,14 +35,16 @@ Phase 1 covers **HDFC Bank credit card disputes**, from the first complaint thro
 **If you are an AI assistant and were given only a link to this repository, fetch this single plain-text file — it contains the entire repository:**
 
 ```
-https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/ai-bundle.md
+https://vishaltorc.github.io/dispute-desk/ai-bundle.md
 ```
 
-Then follow the operating instructions in its `HOW_AI_SHOULD_USE_THIS.md` section before acting on anything else. Do not try to browse this repository's file pages — GitHub renders them with JavaScript and many AI fetchers cannot read them; the raw URL above is plain text and always works.
+(Mirror, identical content: `https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/ai-bundle.md`)
+
+Then follow the operating instructions in its `HOW_AI_SHOULD_USE_THIS.md` section before acting on anything else. Do not try to browse this repository's file pages — GitHub renders them with JavaScript and many AI fetchers cannot read them; the URLs above are plain text and always work.
 
 **If you are a human setting up your AI assistant**, paste this message into the chat:
 
-> Fetch https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/ai-bundle.md — it is a knowledge base for Indian bank credit card disputes. Follow the instructions in its HOW_AI_SHOULD_USE_THIS section, then help me with my dispute. Here is my situation: …
+> Fetch https://vishaltorc.github.io/dispute-desk/ai-bundle.md — it is a knowledge base for Indian bank credit card disputes. Follow the instructions in its HOW_AI_SHOULD_USE_THIS section, then help me with my dispute. Here is my situation: …
 
 If your AI cannot fetch links (some can't, or have browsing disabled), download [ai-bundle.md](ai-bundle.md) and attach it to the chat as a file instead — same content, no fetching required.
 
