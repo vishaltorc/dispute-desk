@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dispute-desk — India Bank Dispute Toolkit</title>
+<meta name="description" content="AI-readable knowledge repository for Indian bank disputes. Phase 1: HDFC Bank credit cards. An organisational and procedural tool — not legal advice; predicts no outcomes.">
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 44rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.6; color: #1a1a1a; background: #fdfdfb; }
+  h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+  .sub { color: #555; margin-top: 0; }
+  .disclaimer { border-left: 3px solid #8a6d3b; background: #faf6ec; padding: .75rem 1rem; font-size: .95rem; }
+  pre { background: #f4f4f0; border: 1px solid #ddd; padding: 1rem; white-space: pre-wrap; word-break: break-word; font-size: .9rem; }
+  code { font-family: ui-monospace, Menlo, monospace; }
+  a { color: #1a4d8f; }
+  h2 { font-size: 1.2rem; margin-top: 2.2rem; }
+  ul { padding-left: 1.2rem; }
+  footer { margin-top: 3rem; font-size: .85rem; color: #666; border-top: 1px solid #e5e5e5; padding-top: 1rem; }
+</style>
+</head>
+<body>
+<h1>dispute-desk</h1>
+<p class="sub">An open-source, AI-readable knowledge repository for Indian bank disputes.<br>Phase 1: HDFC Bank credit cards — first complaint through the bank's internal escalation.</p>
+
+<p class="disclaimer"><strong>This is an organisational and procedural tool, not legal advice, and it never predicts dispute outcomes.</strong> Verify every regulatory citation against the linked primary sources and every contact against the bank's official page before relying on them. <a href="DISCLAIMER.md">Full disclaimer</a>.</p>
+
+<h2>Use it with your AI assistant (the whole point)</h2>
+<p>Copy this message into ChatGPT, Claude, Gemini, or any AI chat, and add your situation at the end:</p>
+<pre>Fetch https://vishaltorc.github.io/dispute-desk/ai-bundle.md — it is a knowledge
+base for Indian bank credit card disputes. Follow the instructions in its
+HOW_AI_SHOULD_USE_THIS section, then help me with my dispute. My situation: …</pre>
+<p>If your AI cannot fetch links (some consumer tiers can't), <a href="ai-bundle.md" download>download the bundle file</a> and attach it to the chat instead — it is the entire repository in one file.</p>
+
+<h2>Browse the repository</h2>
+<ul>
+  <li><a href="https://github.com/vishaltorc/dispute-desk">Source on GitHub</a> (contribute, open issues, add your bank)</li>
+  <li><a href="README.md">README</a> · <a href="HOW_AI_SHOULD_USE_THIS.md">Instructions for AI assistants</a> · <a href="INDEX.md">Full index</a></li>
+  <li><a href="procedure/decision-tree.md">Decision tree</a> · <a href="procedure/classification.md">Dispute classification</a> · <a href="banks/hdfc/contacts.md">Verified HDFC contacts</a></li>
+</ul>
+
+<h2>What's inside</h2>
+<ul>
+  <li>A precondition-gated escalation procedure (no skipped rungs, no premature filings)</li>
+  <li>Seven fill-in templates with placeholders — your data never leaves your machine</li>
+  <li>RBI and card-network rules, each linked to its official source with a last-verified date</li>
+  <li>HDFC escalation contacts captured from official pages, dated and source-linked</li>
+  <li>A catalogue of known deflection replies and their factual counters</li>
+</ul>
+
+<footer>
+  Privacy: never commit your own statements or evidence to this repository or a fork. Templates use placeholders so real data stays with you.<br>
+  Scope: RBI Ombudsman filing is deliberately out of scope in v1. Contacts are perishable — check the dates.
+</footer>
+</body>
+</html>
