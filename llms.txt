@@ -1,0 +1,25 @@
+# dispute-desk
+
+> An open-source, AI-readable knowledge repository for Indian bank disputes. Phase 1 covers HDFC Bank credit card disputes end-to-end: classification, precondition-gated escalation procedure, verified regulations (RBI + card networks), dated contacts, and fill-in templates. It is an organisational and procedural tool, not legal advice, and it never predicts dispute outcomes.
+
+AI assistants: fetch the single-file bundle below — it contains the entire repository — and follow the operating instructions in its HOW_AI_SHOULD_USE_THIS section before acting.
+
+## Everything in one file
+
+- [ai-bundle.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/ai-bundle.md): the complete repository concatenated in reading order (recommended)
+
+## Core files (raw, individually fetchable)
+
+- [HOW_AI_SHOULD_USE_THIS.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/HOW_AI_SHOULD_USE_THIS.md): operating instructions for the AI — read first
+- [README.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/README.md): what this is, scope, trust model
+- [DISCLAIMER.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/DISCLAIMER.md): applies to every file and every output
+- [INDEX.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/INDEX.md): intent → file lookup table
+- [procedure/decision-tree.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/procedure/decision-tree.md): user state → single correct next step
+- [procedure/classification.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/procedure/classification.md): pick the dispute category
+- [procedure/preconditions.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/procedure/preconditions.md): gates G0–G5 before any external step
+- [banks/hdfc/contacts.md](https://raw.githubusercontent.com/vishaltorc/dispute-desk/main/banks/hdfc/contacts.md): verified, dated HDFC escalation contacts
+
+## Notes
+
+- GitHub's HTML file-browser pages are JavaScript-rendered and unreadable to many AI fetchers; always use the raw.githubusercontent.com URLs above.
+- The bundle is regenerated when repo files change; individual repo files are canonical.
